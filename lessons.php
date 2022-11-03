@@ -120,5 +120,14 @@ if<strong>"10" !-- ! 10</strong>{
 
     ?>
 
+    <h3>Php Constants in variables</h3>
+    <?php
+
+    const PI = 3.14;
+    echo PI;
+
+    ?>
+
+
 </body>
 </html>
