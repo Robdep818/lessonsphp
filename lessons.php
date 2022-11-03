@@ -183,6 +183,12 @@ if<strong>"10" !-- ! 10</strong>{
         $sum = $num1 / $num2;
         echo $sum;
         echo "<br>";
+        $sum = $num1 % $num2;
+        echo $sum;
+        echo "<br>";
+
+
+
 
         
         
