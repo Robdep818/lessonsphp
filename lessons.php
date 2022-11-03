@@ -46,5 +46,34 @@
         //correct
         echo 'I\'m learning how to work with strings in php';
         ?>
+    <hr/>
+
+    <h2>Integers</h2>
+    <p>20</p>
+
+
+
+<?php 
+    echo 20;
+    echo "10";
+?>
+<hr/>
+<br>
+if<strong>"10" !-- ! 10</strong>{
+    echo "Not the same data type!";
+} 
+   <hr/>
+   <?php
+    echo 20.5;
+    echo "<br>";
+    echo "<br>";
+    echo 1384.38274;
+   ?>
+
+   <h3>php float Data Type</h3>
+   <p>20.5</p>
+   <h3>C# float data type</h3>
+   <p>20.5f</p>
+
 </body>
 </html>
