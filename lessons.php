@@ -123,11 +123,45 @@ if<strong>"10" !-- ! 10</strong>{
     <h3>Php Constants in variables</h3>
     <?php
 
-    const PI = 3.14;
+    CONST PI = 3.14;
+    CONST BALL_WIDTH =5;
+    CONST BALL_HEIGHT = 5;
     echo PI;
+    echo "<br>";
+    echo BALL_HEIGHT;
+    echo "<br>";
+    echo BALL_HEIGHT;
+    echo "<br>";
+    echo BALL_WIDTH;
 
     ?>
 
+    <?php
+    /* CONST BALL_HEIGHT;
+    BALL_WIDTH = 10; */
+    ?>
+
+    <hr />
+    <h3>expressions & Operators</h3>>
+        <ul>
+            <li>Arithmetic Operators</li>
+            <li>Assignment Operators</li>
+            <li>Comparison Operators</li>
+            <li>Logical Operators</li>
+            <li>Increment & Decrement Operators</li>
+            <li>Array Operators</li>
+            <li>Conditional Assignment Operators</li>
+            <li>Operator Precedence</li>
+            <li>Error Control Operators</li>
+            <li>Execution Control Operators</li>
+            <li>Type Operators</li>
+            <li>Bitwise Operators</li>
+
+
+
+
+
+        </ul>
 
 </body>
 </html>
