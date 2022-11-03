@@ -142,7 +142,7 @@ if<strong>"10" !-- ! 10</strong>{
     ?>
 
     <hr />
-    <h3>expressions & Operators</h3>>
+    <h3>expressions & Operators</h3>
         <ul>
             <li>Arithmetic Operators</li>
             <li>Assignment Operators</li>
@@ -156,12 +156,38 @@ if<strong>"10" !-- ! 10</strong>{
             <li>Execution Control Operators</li>
             <li>Type Operators</li>
             <li>Bitwise Operators</li>
-
-
-
-
-
         </ul>
+
+        <hr />
+
+        <h3>Declare Variables for Examples of Operators</h3>
+        <h3>Assignment Operators</h3>
+        <?php
+        $num1 = 1;
+        $num2 = 2;
+        $sum;
+
+        ?>
+
+        <h3>Arithmetic Operators</h3>
+        <?php
+        $sum = $num1 + $num2;
+        echo $sum;
+        echo "<br>";
+        $sum = $num1 - $num2;
+        echo $sum;
+        echo "<br>";
+        $sum = $num1 * $num2;
+        echo $sum;
+        echo "<br>";
+        $sum = $num1 / $num2;
+        echo $sum;
+        echo "<br>";
+
+        
+        
+
+        ?>
 
 </body>
 </html>
