@@ -187,13 +187,47 @@ if<strong>"10" !-- ! 10</strong>{
         echo $sum;
         echo "<br>";
 
-
-
-
-        
-        
-
         ?>
+
+    <h3>Compound Assignment with Arithmetic Operators</h3>
+    <?php
+    //augmented addition
+    $num1 += $num2;
+    //using += is the same as 1+2 & is considered as a shorthand 
+    $num1 = $num1 + $num2;
+    $sum
+
+    ?>
+
+    <?php
+    $num1 = 1; 
+    $num2 = 2;
+    $sum;
+    $num1 - $num1 = $num2;
+    echo $num1;
+    echo "<br>";
+    $num1 = 1; 
+    $num2 = 2;
+    $sum;
+    $num1 - $num1 = $num2;
+    echo $num1;
+    ?>
+
+    <hr />
+    <h3>Comparison & Strict Equality Operators</h3>
+    <?php
+    $num1 == $num2;
+    $num1 === $num2;
+    $num1 != $num2;
+    $num1 !== $num2;
+    $num1 < $num2;
+    $num1 <= $num2;
+    $num1 >= $num2;
+    $num1 > $num2;
+    $num1 <=> $num2;
+
+    ?>
+
 
 </body>
 </html>
