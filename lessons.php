@@ -74,6 +74,51 @@ if<strong>"10" !-- ! 10</strong>{
    <p>20.5</p>
    <h3>C# float data type</h3>
    <p>20.5f</p>
+   
+   <hr />
+   <h3>Adding line breaks</h3>
+   <?php
+    echo "If you view the page source \n then you will find a new line in this string";
+    echo "<br>";
+    echo nl2br("You will find the \n new lines in this string \r\n on the browser window");
+   ?> 
+
+   <hr />
+   <h3>Boolean</h3>
+   <ul>
+    <li>True</li>
+    <li>False</li>
+   </ul>
+
+   <?php
+
+   $a = true;
+    if($a === false){
+        echo 'variable $a is true';
+    }
+
+   ?>
+
+   <hr />
+
+   <h2>Variables</h2>
+    <?php
+
+     $myName = "Rob";
+     $myAge = 19;
+     $reading = true;
+     $myFloat = 5.5;
+
+    ?>
+
+    <h3>2 parts of a variable </h3>
+    <?php
+    //declaring a variable $name
+    $myName;
+    //Initializing a value to a variable
+    $myName = "Rob";
+
+    ?>
 
 </body>
 </html>
