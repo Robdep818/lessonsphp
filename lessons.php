@@ -142,6 +142,7 @@ if<strong>"10" !-- ! 10</strong>{
     ?>
 
     <hr />
+    <h2>PHP Operators</h2>
     <h3>expressions & Operators</h3>
         <ul>
             <li>Arithmetic Operators</li>
@@ -345,14 +346,46 @@ if<strong>"10" !-- ! 10</strong>{
     ?>
 
 
-    <hr /> <!--in react, the / is important. without the /, react won't work in xhml-->
+   <!-- <hr /> in react, the / is important. without the /, react won't work in xhml-->
     <?php
     $num1 = 1;
     $num1 = "2";
     $num1 == 3;
    
-    ?>
+    ?>-->
 
+<hr />
+<h2>Logical Operators</h2>
+<h3>Logical AND &&</h3>
+<?php
+ $num1 = 5;
+ $num2 = 10;
+
+if($num1 ===5 AND $num2 === 10){
+echo "if both values are true display this text paragraph";
+};
+echo "<br />";
+echo "<br />";
+if($num1 ===5 && $num2 === 10){
+echo "if both values are true display this text paragraph";
+};
+
+?>
+<hr />
+<h3>Logical OR</h3>
+<?php
+$num1 = 5;
+$num2 =10;
+
+if ($num1 === 5 OR $num2 === 6){
+    echo "if one of the values are true, display this text paragraph";
+};
+echo "<br />";
+echo "<br />";
+if ($num1 === 1 || $num2 === 10){
+    echo "if one of the shorthand version of logical OR operators";
+}
+?>
 
 </body>
 </html>
