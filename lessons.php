@@ -316,6 +316,33 @@ if<strong>"10" !-- ! 10</strong>{
         echo "num5 is less than or equal to num6";
     };
     ?>
+    <hr />
+    <h3>Spaceship Operator Example</h3>
+    <?php
+     $num1 = 1;
+     $num2 = 2;
+     $num3 = 3;
+     //$num1 <=> #num2
+      if ($num1 <=> $num2){
+        print "if the one on the right is greater than the number on the left, this should return -1";
+        }
+        echo "<br />";
+        echo "<br />";
+        if ($num1 <= $num2);
+        echo "<br />";
+        echo "<br />";
+            echo $num1 <= $num2;
+            print "if both numbers are equal to one another";
+            echo "<br />";
+            echo "<br />";
+            print ($num2 <=> $num2);
+            echo "<br />";
+            echo "<br />";
+            echo "if the number on the left is greater than the one on the right this should return 1";
+            echo "<br />";
+            echo "<br />";
+            echo $num2 <=> $num1;
+    ?>
 
 
     <hr /> <!--in react, the / is important. without the /, react won't work in xhml-->
@@ -323,10 +350,7 @@ if<strong>"10" !-- ! 10</strong>{
     $num1 = 1;
     $num1 = "2";
     $num1 == 3;
-    
-
-
-
+   
     ?>
 
 
