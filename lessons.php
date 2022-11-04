@@ -269,6 +269,65 @@ if<strong>"10" !-- ! 10</strong>{
     };
     ?>
 
+    <hr />
+    <h3>Not equal & strict not equal Operators</h3>
+    <?php
+    $num1 = 1;
+    $num2 = "2";
+    $num3 = "1";
+    $num5 = 4;
+    $num6 = "4";
+    $num1 = 4;
+
+    echo gettype($num1);
+    echo "<br />";
+    echo "<br />";
+    echo gettype($num2);
+    echo "<br />";
+    echo "<br />";
+    ?>
+
+    <?php
+    if ($num4 !== $num5){
+        echo "this is an example of not to operator";
+    };
+    ?>
+
+<h3>Less than and greater than operators</h3>
+    <?php
+    $num1 = 1;
+    $num2 = 2;
+    $num3 = 3;
+    $num5 = 4;
+    $num6 = 5;
+    
+  
+    if ($num1 < $num2){
+        echo "num1 is less than num2";
+    };
+    echo "<br />";
+    echo "<br />";
+    if ($num3 < $num2){
+        echo "num3 is less than or equal to num2";
+    };
+    echo "<br />";
+    echo "<br />";
+    if ($num5 <= $num6){
+        echo "num5 is less than or equal to num6";
+    };
+    ?>
+
+
+    <hr /> <!--in react, the / is important. without the /, react won't work in xhml-->
+    <?php
+    $num1 = 1;
+    $num1 = "2";
+    $num1 == 3;
+    
+
+
+
+    ?>
 
 
 </body>
