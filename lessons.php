@@ -228,6 +228,48 @@ if<strong>"10" !-- ! 10</strong>{
 
     ?>
 
+    <hr /> <!--in react, the / is important. without the /, react won't work in xhml-->
+    <?php
+    $num1 = 1;
+    $num1 = "2";
+    $num1 == 3;
+    
+    ?>
+
+    <?php
+    $num1 = 1;
+    $num2 = "2";
+    $num3 = "1";
+    $num4 = 4;
+    $num5 = "4";
+    $num6 = 4;
+
+    echo gettype($num1);
+    echo "<br />";
+    echo "<br />";
+    echo gettype($num2);
+    echo "<br />";
+    echo "<br />";
+   
+   
+    if ($num4 == $num5){
+        echo "this is an example of equality operator";
+    };
+    echo "<br />";
+    echo "<br />";
+    echo gettype($num4);
+    echo "<br />";
+    echo "<br />";
+    echo gettype($num5);
+    ?>
+
+    <?php
+    if ($num4 === $num6){
+        echo "this is an example of strict equality operator";
+    };
+    ?>
+
+
 
 </body>
 </html>
