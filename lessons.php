@@ -426,5 +426,17 @@ echo "<br>";
 var_dump($num3 === 5 xor $num4 === 6);
 }
 ?>
+
+<hr />
+<h4>Logical !== NOT</h4>
+<h4>Not Equal</h4>
+<?php
+ $num1 = 100;
+ var_dump($num1 != 60);
+ echo "<br />";
+ var_dump($num1);
+
+?>
+
 </body>
 </html>
