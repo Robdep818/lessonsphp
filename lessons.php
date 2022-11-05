@@ -375,17 +375,56 @@ echo "if both values are true display this text paragraph";
 <h3>Logical OR</h3>
 <?php
 $num1 = 5;
-$num2 =10;
+$num2 = 10;
 
 if ($num1 === 5 OR $num2 === 6){
     echo "if one of the values are true, display this text paragraph";
 };
 echo "<br />";
 echo "<br />";
-if ($num1 === 1 || $num2 === 10){
+if ($num1 === 5 || $num2 === 10){
     echo "if one of the shorthand version of logical OR operators";
 }
 ?>
 
+<hr />
+<h3>Logical XOR</h3>
+<?php
+$num1 = 10;
+$num2 = 20;
+$num3 = 5;
+$num5 = 6;
+if($num1 === 10 xor $num2 === 5)
+{
+$result1 = $num1 === 10 xor $num2 === 5;
+echo "true xor false";
+echo "<br>";
+echo "if one of these are true, display this!";
+echo "<br>";
+echo $result1 ? "true": "false";
+}
+echo "<br>";
+echo "<br>";
+$result2 = $num3 === 5 xor $num4 === 6;
+echo "true xor true";
+echo "<br>";
+echo "if one of these are true, display this!";
+echo "<br>";
+echo $result2 ? "true": "false";
+echo "<br>";
+var_dump($num3 === 5 xor $num4 === 6);
+
+if($result2)
+{
+echo "<br>";
+echo "true xor true";
+echo "<br>";
+echo "if one of these are true, display this!";
+echo "<br>";
+echo $result2 ? "true": "false";
+echo "<br>";
+var_dump($num3 === 5 xor $num4 === 6);
+}
+?>
 </body>
 </html>
